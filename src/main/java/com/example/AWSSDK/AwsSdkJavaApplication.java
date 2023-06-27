@@ -8,6 +8,8 @@ public class AwsSdkJavaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AwsSdkJavaApplication.class, args);
+
+		Email.send();
 	}
 
 }
